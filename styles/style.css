@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav style */
+.nav-section {
+    max-width: 1800px;
+}
+
+.nav-container {
+    max-width: 1300px;
+    display: flex;
+    min-height: 60px;
+
+    margin: auto;
+
+}
+
+.logo-container img {
+    width: 80px;
+    height: 50px;
+
+}
+
+#red-icon-1 {
+    color: red;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
+
+.items-container {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+}
+
+.items-container a {
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.gamer-color {
+    color: #ff42a5;
+}
+
+/* nav style */
+
+/* bannar-section */
+
+.banner-container {
+    margin: 50px auto 0;
+    width: 1300px;
+    margin: 50px auto 0;
+    display: flex;
+
+}
+
+.btn-primary {
+    background-color: darksalmon;
+    height: 30px;
+    width: 100px;
+    border-radius: 45px;
+    border: 0;
+}
+
+#color {
+    background-color: #4EC5F7;
+}
+
+.btn-primary:hover {
+    background-color: #301b7e;
+    color: white;
+}
+
+#color:hover {
+    background-color: darksalmon;
+}
+
+.main-banner {}
+
+.text-banner {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.text-banner-tow {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    color: violet;
+
+}
+
+.main-banner-tow img {
+    width: 500px;
+    margin-left: 300px;
+}
+
+/* bannar-section */
+
+
+/* bannar-section second start */
+
+.banner-tow {
+    width: 1300px;
+    height: 400px;
+    background-color: bisque;
+    margin: 10px auto 0;
+    display: flex;
+    border-radius: 8px;
+}
+
+.imf-conf {}
+
+.gemer-content {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+
+    font-weight: 800;
+    color: violet;
+}
+
+.online {
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.funny {
+    color: violet;
+}
+
+.gemer-content-tow {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+
+    font-weight: 400;
+
+
+}
+
+/* bannar-section  end*/
+
+/* another-section */
+.another-section {
+    margin-top: 50px;
+    width: 1300px;
+    margin: auto;
+    height: 550px;
+}
+
+.img-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.funny-title {
+    justify-content: center;
+    text-align: center;
+}
+
+/* another-section */
+.row-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.simple-img {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.simple-section {
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto 0;
+}
+
+.simple-section h3:hover {
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #753232;
+    color: white;
+}
+
+.row-section-tow {
+    margin-top: 30px;
+}
+
+/* footer section */
+.footer-section {
+    /* width: 1500px; */
+    height: 500px;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+}
+
+.last-script {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pragraph-section {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+.copy-right {
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.bonous-work {
+    background-image: url(../images/rounded-play-button_318-9366.avif);
+    ;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .another-section img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .another-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .simple-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+}
